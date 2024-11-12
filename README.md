@@ -1,6 +1,9 @@
 # Ginix
 (RU) Оболочка легковесной ОС на основе Micropython
+
 (EN) Lightweight OS shell based on Micropython
+
+
 
 (RU) Установке:
 1. Загрузить на устройство прошивку Micropython
