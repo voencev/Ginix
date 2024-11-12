@@ -3,7 +3,6 @@
 (EN) Lightweight OS shell based on Micropython;
 
 
-
 (RU) Установка:
 1. Загрузить на устройство прошивку Micropython
 2. Через Thonny выгрузить файлы Ginix в корень чипа
