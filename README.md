@@ -6,6 +6,8 @@
 2. Через Thonny выгрузить файлы Ginix в корень чипа
 3. Перезагрузить устройство
 
+UPD: В планах собрать всё в единый бинарник, но пока что необходимо загружать сначала бинарник MicroPython, потом файлы
+
 (EN) Lightweight OS shell based on Micropython;
 -
 Installation:
