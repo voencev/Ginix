@@ -1,5 +1,6 @@
 args = []
 
+os.chdir('/home')
 
 def file_exists(file_path,file_name):
     if file_name in os.listdir(file_path):
