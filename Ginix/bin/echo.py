@@ -5,8 +5,9 @@ if len(args) == 1:
     print(args[0])
 elif len(args) == 3 and args[1] == '>':
     try:
-        file = open(args[2], 'w')
-        file.write(args[0])
+        file = open(args[2], 'r+')
+        tmp = file.read()
+        file.write(tmp+args[0])
         file.close()
     except:
         print('Error: incorrect path')

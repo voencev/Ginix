@@ -1,5 +1,4 @@
-from machine import deepsleep
-
+#from machine import deepsleep
 import time
 UTC_OFFSET = 3
 
@@ -11,5 +10,4 @@ wifi = network.WLAN(network.STA_IF)
 
 with open('/bin/shell.py') as shell:
     exec(shell.read())
-    
-deepsleep()
+#deepsleep()

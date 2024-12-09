@@ -1,6 +1,7 @@
 args = []
 
 os.chdir('/home')
+print('%$',end='')
 
 def file_exists(file_path,file_name):
     if file_name in os.listdir(file_path):
@@ -26,8 +27,8 @@ while True:
         
     command.append(tmp_str)
     tmp_str = ''
-       
-    if len(command) == 0:
+    
+    if len(command) == 1 and command[0] == '':
         continue
     
     if command[0] == 'exit':
